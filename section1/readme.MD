@@ -87,4 +87,14 @@
   - `String::new();`
   - `String::from("Hello");`
 
+## Operators
 
+- `+`
+- `-`
+- `/`
+- `*`
+- `%`
+- `++ (not supported)`
+- `-- (not supported)`
+- `>`
+- `<`
