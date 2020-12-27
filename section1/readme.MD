@@ -4,7 +4,9 @@
 
 ---  
 
-### Scaler
+### Primitive types
+
+[Rust doc primitive types](https://doc.rust-lang.org/std/index.html#primitives)
 
 #### Integer types
 
@@ -48,3 +50,41 @@
 - Rust has 2 primitive float types for floating point numbers.
   - f32
   - f64
+
+---
+
+#### Booleans
+
+---
+
+#### Charcter
+
+---
+
+### Mutability
+
+- By default variables are immutable.
+- When a variable is immutable and a value is bound to a name it cannot change value.
+
+### Constants
+
+- Constants are values that are bound to a name and are not allowed to change.
+- Cannot use *mut* keyword to create a const
+- Use ```const``` keyword to create a const
+- Type of the value must be annotated.
+- Constants can be declared in any scope, including the global scope.
+- Constants may be set only to a constant expression
+- Unmutable variables are not constants
+
+### Strings
+
+[Rustdoc on Strings](https://doc.rust-lang.org/std/string/index.html)
+
+- Rust has only one string type in the core language, which is the string slice (&str)
+- String type is provided by rust's standard library rather than the core language.
+- String is growable, mutable, UTF-8 encoded.
+- To create new string:
+  - `String::new();`
+  - `String::from("Hello");`
+
+
