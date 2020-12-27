@@ -87,6 +87,8 @@
   - `String::new();`
   - `String::from("Hello");`
 
+---
+
 ## Operators
 
 - `+`
@@ -98,3 +100,24 @@
 - `-- (not supported)`
 - `>`
 - `<`
+
+---
+
+## Comments
+
+- c type comments
+  - `//`
+  - `/* */`
+
+---
+
+## Shadowing
+
+- Shadowing is when you redclare a variable
+- We can change the type by shadowing
+
+---
+
+## Typecasting
+
+- Not supported by default

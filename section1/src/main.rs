@@ -65,6 +65,9 @@ fn main() {
  push_string.push_str(" de blah");
  println!("After the push: {}", push_string);
 
-
+/*
+Multiline comments
+blah
+*/
 
 }
