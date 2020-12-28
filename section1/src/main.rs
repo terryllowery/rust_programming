@@ -1,5 +1,8 @@
 #![allow(overflowing_literals)]
 
+// io module to do input
+use std::io;
+
 // Constants in global
 const GLOBAL_MAX: i32 = 500;
 
@@ -80,4 +83,18 @@ fn main() {
     let a: i32 = 22;
     let b: i64 = a.into();
     println!("b is: {}", b);
+
+    // Taking input from a user
+    let mut inputed_string=String::new();
+    println!("Enter a String");
+    io::stdin().read_line(&mut inputed_string).expect("Failed");
+    println!("input is {}", inputed_string);
+
+    // Take input for numbers or other types
+    let mut input_num=String::new();
+    println!("Enter a number: ");
+    io::stdin().read_line(&mut input_num).expect("Failed");
+    let input_num:i32=input_num.trim().parse().expect("Failed");
+    println!("input num + 8 is: {}", input_num + 8);
+
 }
