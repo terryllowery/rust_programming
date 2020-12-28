@@ -122,3 +122,8 @@
 
 - Not supported by default
 - Use 'as' keyword to typecast to another type
+
+---
+
+## Taking input from a user
+
